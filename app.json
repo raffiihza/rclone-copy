@@ -3,8 +3,8 @@
 	"description": "Copy files via rclone",
 	"repository": "https://github.com/raffiihza/rclone-copy",
 	"env": {
-		"CONFIG_URL": {
-			"description": "rclone.conf raw link"
+		"RCLONE_CONFIG": {
+			"description": "rclone.conf contents"
 		},
 		"SOURCE_RC": {
 			"description": "source:sourcepath"
