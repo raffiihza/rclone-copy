@@ -1,5 +1,6 @@
 {
 	"name": "Rclone Copy",
+	 "stack": "scalingo-20",
 	"description": "Copy files via rclone",
 	"repository": "https://github.com/raffiihza/rclone-copy",
 	"env": {
