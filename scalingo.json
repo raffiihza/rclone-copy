@@ -1,0 +1,33 @@
+{
+  "name": "Rclone Copy",
+  "description": "Rclone copy commands on cloud",
+  "repository": "https://github.com/raffiihza/rclone-copy",
+  "website": "https://scalingo.com",
+  "env": {
+    "RCLONE_CONFIG": {
+      "description": "Rclone config",
+      "value": "here"
+      "required": true
+    },
+    "SOURCE_RC": {
+      "description": "Source",
+      "value": "here",
+      "required": true
+    },
+    "DESTINATION_RC": {
+      "description": "Destination",
+      "value": "here",
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "amount": 1,
+      "size": "M"
+    },
+    "worker": {
+      "amount": 1,
+      "size": "M"
+    }
+  }
+}
