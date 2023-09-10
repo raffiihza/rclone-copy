@@ -6,7 +6,7 @@
   "env": {
     "RCLONE_CONFIG": {
       "description": "Rclone config",
-      "value": "here"
+      "value": "here",
       "required": true
     },
     "SOURCE_RC": {
