@@ -15,10 +15,6 @@
 		}
 	},
   "formation": {
-    "web": {
-      "amount": 1,
-      "size": "M"
-    },
     "worker": {
       "amount": 1,
       "size": "M"
